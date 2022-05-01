@@ -1,0 +1,90 @@
+{
+    "teams":{
+        "team001":{
+            "no":1,
+            "team_name":"SMD FC"
+        },
+        "team002":{
+            "no":2,
+            "team_name":"BPP FC"
+        },
+        "team003":{
+            "no":3,
+            "team_name":"BTG FC"
+        },
+        "team004":{
+            "no":1,
+            "team_name":"BDG FC"
+        },
+        "team005":{
+            "no":2,
+            "team_name":"MLG FC"
+        },
+        "team006":{
+            "no":3,
+            "team_name":"SBY FC"
+        }
+    },
+    "players":{
+        "pl001":{
+            "no":"001",
+            "name":"udin",
+            "position":"qb"
+        },
+        "pl002":{
+            "no":"002",
+            "name":"rey",
+            "position":"qb"
+        }
+    },
+    "match": {
+        "match001":{
+            "team001":true,
+            "team002":true,
+            "team003":true
+        },
+        "match002":{
+            "team004":true,
+            "team005":true,
+            "team006":true
+        }
+    },
+    "playerdeck":{
+        "match001":{
+            "team001":{
+                "pl001":true,
+                "pl002":true
+            }
+        },
+        "match002":{
+            "team001":{
+                "pl001":true,
+                "pl002":true
+            }
+        }
+    },
+    "selected":{
+        "match001": {
+            "pl001":true,
+            "pl002":true,
+            "pl003":true
+        }
+    },
+    "turn":{
+        "match001": {
+            "team001":true,
+            "team002":false,
+            "team003":false
+        }
+    },
+    "rule": {
+        "roomcount":3,
+        "countdown":90,
+        "positioncount": {
+            "qb":4,
+            "wr":4,
+            "rb":4,
+            "te":4
+        }
+    }
+}
